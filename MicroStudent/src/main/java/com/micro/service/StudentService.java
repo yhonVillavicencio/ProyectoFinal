@@ -14,4 +14,5 @@ public interface StudentService {
 	public Mono<Student> findById(String id);
 	
 	public Mono<Student> findBynombre(String nombre);
+	public Mono<Void> delete(Student student);
 }

@@ -11,6 +11,7 @@ public class Student {
 	private String tipoIdentificacion;
 	private String numeroIdentificacion;
 	private String nombre;
+	private String genero;
 	
 	public String getCodigoStudent() {
 		return codigoStudent;
@@ -43,6 +44,12 @@ public class Student {
 		this.tipoIdentificacion = tipoIdentificacion;
 		this.numeroIdentificacion = numeroIdentificacion;
 		this.nombre = nombre;
+	}
+	public String getGenero() {
+		return genero;
+	}
+	public void setGenero(String genero) {
+		this.genero = genero;
 	}
 
 	

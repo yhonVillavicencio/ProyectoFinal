@@ -37,4 +37,10 @@ public class StudentServiceImp implements StudentService{
 		return resp.findBynombre(nombre);
 	}
 
+	@Override
+	public Mono<Void> delete(Student student) {
+		// TODO Auto-generated method stub
+		return resp.delete(student);
+	}
+
 }
