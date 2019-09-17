@@ -1,7 +1,7 @@
 create database Proyecto2
 use Proyecto 2
 
-db.Student.insert(
+db.student.insert(
 { 
  codigoStudent:"001",
  tipoIdentificacion: "dni",
