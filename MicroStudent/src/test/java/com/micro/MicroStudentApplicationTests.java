@@ -12,6 +12,7 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 
 import com.micro.model.Student;
 import com.micro.repository.StudentRepository;
+import com.mongodb.connection.Stream;
 
 import reactor.core.publisher.Mono;
 
@@ -37,7 +38,7 @@ public class MicroStudentApplicationTests {
 		.expectStatus().isOk()
 		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
 		.expectBodyList(Student.class)
-		.hasSize(3);
+		.hasSize(2);
 	}
 
 	@Test
@@ -55,8 +56,7 @@ public class MicroStudentApplicationTests {
 		.jsonPath("$.nombre").isEqualTo("so");
 		
 	}
-	/*
-		@Test
+	@Test
 	public void Crear() {
 		
 		Student student = new Student("DNI","12345613","PRUEBA","Masculino","2019-03-30",2);
@@ -72,13 +72,13 @@ public class MicroStudentApplicationTests {
 		.jsonPath("$student.codigoStudent").isNotEmpty()
 		.jsonPath("$student.tipoIdentificacion").isEqualTo("DNI");	
 		
-	} */
+	} 
 	@Test
 	public void editarTest() {
 		
-		Student student = servi.findBynombre("ameness").block();
+		Student student = servi.findBynombre("amenessss").block();
 
-		Student studentEditado = new Student("DNI","73226948","amenesss","30-03-1998","Masculino",2);
+		Student studentEditado = new Student("DNI","73226948","amen","30-03-1998","Masculino",2);
 		
 		client.put().
 		uri("/api/v2/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
@@ -90,19 +90,16 @@ public class MicroStudentApplicationTests {
 		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
 		.expectBody()
 		.jsonPath("$.codigoStudent").isNotEmpty()
-		.jsonPath("$.nombre").isEqualTo("amenesss");
+		.jsonPath("$.nombre").isEqualTo("amen");
 		
 	}
-	
-	 
-	 /*
 	@Test
 	public void eliminarTest() {
-		Student student = servi.findBynombre("prueba").block();
+		Student student = servi.findBynombre("sa").block();
 		client.delete()
 		.uri("/api/v2/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
 		.exchange()
-		.expectStatus().isNoContent()
+		.expectStatus().isOk()
 		.expectBody()
 		.isEmpty();
 		
@@ -112,8 +109,7 @@ public class MicroStudentApplicationTests {
 		.expectStatus().isNotFound()
 		.expectBody()
 		.isEmpty();
-	}
-	*/
+	} 
 	
 	}
 	

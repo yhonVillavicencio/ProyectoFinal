@@ -1,6 +1,7 @@
 package com.micro.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.micro.model.Student;
 import com.micro.repository.StudentRepository;
@@ -9,6 +10,7 @@ import com.micro.service.StudentService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+@Service
 public class StudentServiceImp implements StudentService{
 	
 	@Autowired

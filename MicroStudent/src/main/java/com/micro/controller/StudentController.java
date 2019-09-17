@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.micro.model.Student;
-import com.micro.repository.StudentRepository;
+import com.micro.service.StudentService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -22,9 +22,7 @@ public class StudentController {
 	
 	
 	@Autowired
-	private StudentRepository serv;
-	
-
+	private StudentService serv;
 	
 	  @GetMapping("/st")
 	  public Flux<Student> listar() {
