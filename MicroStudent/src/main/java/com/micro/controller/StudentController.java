@@ -20,7 +20,6 @@ import reactor.core.publisher.Mono;
 @RequestMapping("/api/v2")
 public class StudentController {
 	
-	
 	@Autowired
 	private StudentService serv;
 	

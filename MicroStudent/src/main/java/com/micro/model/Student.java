@@ -26,7 +26,7 @@ public class Student {
 	private String genero;
 	private String fechaNacimiento;
 	@Max(2)
-		private int numeroPadres;
+	private int numeroPadres;
 	
 	public Student(@NotEmpty(message = "Tipo de Identificacion No puede estar vacio") String tipoIdentificacion,
 			String numeroIdentificacion,

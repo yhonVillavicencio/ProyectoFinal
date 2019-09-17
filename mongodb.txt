@@ -1,0 +1,41 @@
+create database Proyecto2
+use Proyecto 2
+
+db.Student.insert(
+{ 
+ codigoStudent:"001",
+ tipoIdentificacion: "dni",
+ numeroIdentificacion: "73226940",
+ nombre: "yhon",
+ genero: "Masculino",
+ fechaNacimiento: "30-03-1997",
+ numeroPadres: 2
+}
+{ 
+ codigoStudent:"002",
+ tipoIdentificacion: "dni",
+ numeroIdentificacion: "73226941",
+ nombre: "manuel",
+ genero: "Masculino",
+ fechaNacimiento: "30-03-1997",
+ numeroPadres: 2
+}
+{ 
+ codigoStudent:"003",
+ tipoIdentificacion: "dni",
+ numeroIdentificacion: "73226942",
+ nombre: "prueba",
+ genero: "Masculino",
+ fechaNacimiento: "30-03-1997",
+ numeroPadres: 2
+}
+{ 
+ codigoStudent:"004",
+ tipoIdentificacion: "dni",
+ numeroIdentificacion: "73226943",
+ nombre: "dd",
+ genero: "Masculino",
+ fechaNacimiento: "30-03-1997",
+ numeroPadres: 2
+}
+)
