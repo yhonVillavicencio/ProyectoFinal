@@ -37,13 +37,13 @@ public class MicroStudentApplicationTests {
 		.expectStatus().isOk()
 		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
 		.expectBodyList(Student.class)
-		.hasSize(6);
+		.hasSize(3);
 	}
 
 	@Test
 	public void BuscarPorNombre() {
 		
-		Student student = servi.findBynombre("YHONManuel").block();
+		Student student = servi.findBynombre("Brigido").block();
 		client.get()
 		.uri("/api/v2/st/{id}", Collections.singletonMap("id",student.getCodigoStudent()))
 		.accept(MediaType.APPLICATION_JSON_UTF8)
@@ -52,29 +52,28 @@ public class MicroStudentApplicationTests {
 		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
 		.expectBody()
 		.jsonPath("$.codigoStudent").isNotEmpty()
-		.jsonPath("$.nombre").isEqualTo("YHONManuel");
+		.jsonPath("$.nombre").isEqualTo("Brigido");
 		
 	}
 	/*
 		@Test
 	public void Crear() {
 		
-		Student student = new Student("DNI","12345613","gaa");
-		
+		Student student = new Student("DNI","12345613","PRUEBA","Masculino","2019-03-30",2);
 		client.post()
 		.uri("/api/v2/st")
 		.contentType(MediaType.APPLICATION_JSON_UTF8)
 		.accept(MediaType.APPLICATION_JSON_UTF8)
 		.body(Mono.just(student), Student.class)
 		.exchange()
-		.expectStatus().isCreated()
+		.expectStatus().isOk()
 		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
 		.expectBody()
 		.jsonPath("$student.codigoStudent").isNotEmpty()
 		.jsonPath("$student.tipoIdentificacion").isEqualTo("DNI");	
 		
 	} */
-	
+
 		/*
 	@Test
 	public void editarTest() {

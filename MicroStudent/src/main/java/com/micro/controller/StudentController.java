@@ -1,6 +1,8 @@
 package com.micro.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -48,17 +50,19 @@ public class StudentController {
 	      s.setTipoIdentificacion(student.getTipoIdentificacion());
 	      s.setNumeroIdentificacion(student.getNumeroIdentificacion());
 	      s.setNombre(student.getNombre());
+	      s.setGenero(student.getGenero());
+	      s.setFechaNacimiento(student.getFechaNacimiento());
+	      s.setNumeroPadres(student.getNumeroPadres());
 	      return serv.save(s);
 	    });
 	  }
 	  
-	  
-	  @DeleteMapping("/{id}")
-		public Mono<Void> delete(@PathVariable String id){
-			return serv.findById(id).flatMap(s ->{
-				return serv.delete(s);
- 
-});
+	  @DeleteMapping("/st/{id}")
+	  public Mono<Void> eliminar(@PathVariable String id) {
+	    return serv.findById(id).flatMap(s -> {
+	      return serv.delete(s);
+	    });
+	  }
 			
 	  
-	  }}
+	  }
