@@ -10,7 +10,7 @@ db.student.insert(
  genero: "Masculino",
  fechaNacimiento: "30-03-1997",
  numeroPadres: 2
-}
+},
 { 
  codigoStudent:"002",
  tipoIdentificacion: "dni",
@@ -19,7 +19,7 @@ db.student.insert(
  genero: "Masculino",
  fechaNacimiento: "30-03-1997",
  numeroPadres: 2
-}
+},
 { 
  codigoStudent:"003",
  tipoIdentificacion: "dni",
@@ -28,7 +28,7 @@ db.student.insert(
  genero: "Masculino",
  fechaNacimiento: "30-03-1997",
  numeroPadres: 2
-}
+},
 { 
  codigoStudent:"004",
  tipoIdentificacion: "dni",
