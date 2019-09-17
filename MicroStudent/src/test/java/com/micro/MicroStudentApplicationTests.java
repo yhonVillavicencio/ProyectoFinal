@@ -43,7 +43,7 @@ public class MicroStudentApplicationTests {
 	@Test
 	public void BuscarPorNombre() {
 		
-		Student student = servi.findBynombre("Brigido").block();
+		Student student = servi.findBynombre("so").block();
 		client.get()
 		.uri("/api/v2/st/{id}", Collections.singletonMap("id",student.getCodigoStudent()))
 		.accept(MediaType.APPLICATION_JSON_UTF8)
@@ -52,7 +52,7 @@ public class MicroStudentApplicationTests {
 		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
 		.expectBody()
 		.jsonPath("$.codigoStudent").isNotEmpty()
-		.jsonPath("$.nombre").isEqualTo("Brigido");
+		.jsonPath("$.nombre").isEqualTo("so");
 		
 	}
 	/*
@@ -73,14 +73,12 @@ public class MicroStudentApplicationTests {
 		.jsonPath("$student.tipoIdentificacion").isEqualTo("DNI");	
 		
 	} */
-
-		/*
 	@Test
 	public void editarTest() {
 		
-		Student student = servi.findBynombre("12345678").block();
+		Student student = servi.findBynombre("ameness").block();
 
-		Student studentEditado = new Student("DNI","73226940","brigido");
+		Student studentEditado = new Student("DNI","73226948","amenesss","30-03-1998","Masculino",2);
 		
 		client.put().
 		uri("/api/v2/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
@@ -92,10 +90,10 @@ public class MicroStudentApplicationTests {
 		.expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
 		.expectBody()
 		.jsonPath("$.codigoStudent").isNotEmpty()
-		.jsonPath("$.nombre").isEqualTo("brigido");
+		.jsonPath("$.nombre").isEqualTo("amenesss");
 		
 	}
-	/*
+	
 	 
 	 /*
 	@Test
