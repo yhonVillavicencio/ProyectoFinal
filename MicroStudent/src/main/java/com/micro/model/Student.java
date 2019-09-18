@@ -27,6 +27,7 @@ public class Student {
 	private String tipoIdentificacion;
 	private String numeroIdentificacion;
 	@NotEmpty(message = "Nombre No puede estar vacio")
+	@Size(min=3, max =15 )
 	private String nombre;
 	@NotEmpty(message = "Genero No puede estar vacio")
 	private String genero;
