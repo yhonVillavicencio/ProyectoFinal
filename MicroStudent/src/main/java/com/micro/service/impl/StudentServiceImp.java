@@ -1,5 +1,7 @@
 package com.micro.service.impl;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,32 +20,37 @@ public class StudentServiceImp implements StudentService{
 
 	@Override
 	public Flux<Student> findAll() {
-		// TODO Auto-generated method stub
 		return resp.findAll();
+	}
+	
+	@Override
+	public Flux<Student> findByBirthdateBetween(Date birthdate, Date birthdate1) {
+		return resp.findByBirthdateBetween(birthdate, birthdate1);
 	}
 
 	@Override
 	public Mono<Student> save(Student student) {
-		// TODO Auto-generated method stub
 		return resp.save(student);
 	}
 
 	@Override
 	public Mono<Student> findById(String id) {
-		// TODO Auto-generated method stub
 		return resp.findById(id);
 	}
 
 	@Override
 	public Mono<Student> findBynombre(String nombre) {
-		// TODO Auto-generated method stub
 		return resp.findBynombre(nombre);
 	}
 
 	@Override
 	public Mono<Void> delete(Student student) {
-		// TODO Auto-generated method stub
 		return resp.delete(student);
+	}
+
+	@Override
+	public Mono<Student> findBynumeroIdentificacion(String numeroIdentificacion) {
+		return resp.findBynumeroIdentificacion(numeroIdentificacion);
 	}
 
 }
