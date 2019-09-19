@@ -3,9 +3,6 @@ package com.micro.controller.test;
 import com.micro.controller.StudentController;
 import com.micro.model.Student;
 import com.micro.repository.StudentRepository;
-
-import static org.hamcrest.CoreMatchers.nullValue;
-
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
@@ -52,9 +49,10 @@ public class MicroStudentControllerTests {
   @Test
   public void findByName() {
     final Student student = servi.findBynombre("brigido").block();
-    if(student !=null) {
     
-    client.get()
+    if (student != null) {
+    
+      client.get()
       .uri("/api/v2/st/{id}", Collections.singletonMap("id",student.getCodigoStudent()))
       .accept(MediaType.APPLICATION_JSON_UTF8)
       .exchange()
@@ -63,9 +61,9 @@ public class MicroStudentControllerTests {
       .expectBody()
       .jsonPath("$.codigoStudent").isNotEmpty()
       .jsonPath("$.nombre").isEqualTo("brigido");
-    }else {
-    	log.error("No se encontraron datos!");
-	}
+    } else {
+      log.error("No se encontraron datos!");
+    }
   }
 
   @Test
@@ -86,12 +84,12 @@ public class MicroStudentControllerTests {
 
   @Test
   public void editarTest() {
-   final Student student = servi.findBynumeroIdentificacion("12345610").block();
+    final Student student = servi.findBynumeroIdentificacion("12345610").block();
 
-   final Student studentEditado = new Student("DNI","73226940","gaa","Masculino",new Date(),2);
-    if(student !=null) {
-    	
-   client.put()
+    final Student studentEditado = new Student("DNI","73226940","gaa","Masculino",new Date(),2);
+    
+    if (student != null) {
+      client.put()
       .uri("/api/v2/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
       .contentType(MediaType.APPLICATION_JSON_UTF8)
       .accept(MediaType.APPLICATION_JSON_UTF8)
@@ -103,25 +101,24 @@ public class MicroStudentControllerTests {
       .jsonPath("$.codigoStudent").isNotEmpty()
       .jsonPath("$.nombre").isEqualTo("gaa");
     } else {
-    	log.error("No se encontraron datos!");
-	}
+      log.error("No se encontraron datos!");
+    }
   }
 
   @Test
   public void eliminarTest() {
-   final Student student = servi.findBynumeroIdentificacion("12345678").block();
-   
-   if(student !=null) {
-    client.delete()
+    final Student student = servi.findBynumeroIdentificacion("12345678").block();
+    if (student != null) {
+      client.delete()
       .uri("/api/v2/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
       .exchange()
       .expectStatus().isOk()
       .expectBody()
-      .isEmpty();
+        .isEmpty(); 
+    } else {
+    
+      log.error("No se encontraron datos!");
     }
-   else {
-	   log.error("No se encontraron datos!");
-}
    
   }
   

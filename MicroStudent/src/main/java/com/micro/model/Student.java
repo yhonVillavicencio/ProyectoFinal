@@ -35,8 +35,7 @@ public class Student {
   @Max(2)
   private int numeroPadres;
  
-  // Contructor
-  
+  //Contructor.
   public Student(String tipoIdentificacion, String numeroIdentificacion, String nombre,
       String genero,Date birthdate,int numeroPadres) {
     this.tipoIdentificacion = tipoIdentificacion;

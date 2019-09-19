@@ -1,0 +1,59 @@
+Found a 7 line (50 tokens) duplication in the following files: 
+Starting at line 75 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+Starting at line 95 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+
+      .body(Mono.just(student), Student.class)
+      .exchange()
+      .expectStatus().isOk()
+      .expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
+      .expectBody()
+      .jsonPath("$.codigoStudent").isNotEmpty()
+      .jsonPath("$.nombre").isEqualTo("aaaaff");
+=====================================================================
+Found a 8 line (49 tokens) duplication in the following files: 
+Starting at line 53 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\service\impl\test\MicroStudentServiceImplTest.java
+Starting at line 68 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\service\impl\test\MicroStudentServiceImplTest.java
+
+  public void findByDocument() {
+	        Student st2 = new Student();
+	        st2.setTipoIdentificacion("DNI");
+	        st2.setNumeroIdentificacion("73226957");
+	        st2.setNombre("prueba05");
+	        st2.setGenero("Masculino");
+	        st2.setBirthdate(new Date());
+	        st2.setNumeroPadres(3);
+=====================================================================
+Found a 7 line (45 tokens) duplication in the following files: 
+Starting at line 56 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+Starting at line 75 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+Starting at line 95 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+
+      .accept(MediaType.APPLICATION_JSON_UTF8)
+      .exchange()
+      .expectStatus().isOk()
+      .expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
+      .expectBody()
+      .jsonPath("$.codigoStudent").isNotEmpty()
+      .jsonPath("$.nombre").isEqualTo("brigido");
+=====================================================================
+Found a 6 line (32 tokens) duplication in the following files: 
+Starting at line 34 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+Starting at line 55 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+
+         .uri("/api/v2/st")
+         .accept(MediaType.APPLICATION_JSON_UTF8)
+         .exchange()
+         .expectStatus().isOk()
+         .expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
+         .expectBodyList(Student.class)
+=====================================================================
+Found a 5 line (25 tokens) duplication in the following files: 
+Starting at line 35 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+Starting at line 75 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+Starting at line 95 of C:\Users\yvillavi\Desktop\MicroservicioStudenV2\MicroStudent\src\test\java\com\micro\controller\test\MicroStudentControllerTests.java
+
+         .accept(MediaType.APPLICATION_JSON_UTF8)
+         .exchange()
+         .expectStatus().isOk()
+         .expectHeader().contentType(MediaType.APPLICATION_JSON_UTF8)
+         .expectBodyList(Student.class)

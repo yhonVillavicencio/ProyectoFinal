@@ -1,6 +1,9 @@
 package com.micro.service.impl.test;
 
+import static org.mockito.Mockito.when;
+
 import com.micro.model.Student;
+
 import com.micro.repository.StudentRepository;
 import com.micro.service.impl.StudentServiceImpl;
 import java.util.Date;
@@ -17,7 +20,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import reactor.test.StepVerifier;
-import static org.mockito.Mockito.when;
+
+
 
 @RunWith(SpringRunner.class)
 @AutoConfigureWebTestClient
@@ -41,7 +45,7 @@ public class MicroStudentServiceImplTest {
     Flux<Student> actual = imp.findAll();
     assertResults(actual, student);
   }
-  
+
   private void assertResults(Publisher<Student> publisher, Student... expectedProducts) {
     StepVerifier
       .create(publisher)
@@ -51,28 +55,28 @@ public class MicroStudentServiceImplTest {
 
   @Test
   public void findByDocument() {
-	        Student st2 = new Student();
-	        st2.setTipoIdentificacion("DNI");
-	        st2.setNumeroIdentificacion("73226957");
-	        st2.setNombre("prueba05");
-	        st2.setGenero("Masculino");
-	        st2.setBirthdate(new Date());
-	        st2.setNumeroPadres(3);
-	        final String dni = "73226957";
-	        when(imp.findBynumeroIdentificacion(dni)).thenReturn(Mono.just(st2));
-	        Mono<Student> actual = imp.findBynumeroIdentificacion(dni);
-	        assertResults(actual,st2);
+    Student st2 = new Student();
+    st2.setTipoIdentificacion("DNI");
+    st2.setNumeroIdentificacion("73226957");
+    st2.setNombre("prueba05");
+    st2.setGenero("Masculino");
+    st2.setBirthdate(new Date());
+    st2.setNumeroPadres(3);
+    final String dni = "73226957";
+    when(imp.findBynumeroIdentificacion(dni)).thenReturn(Mono.just(st2));
+    Mono<Student> actual = imp.findBynumeroIdentificacion(dni);
+    assertResults(actual,st2);
   }
   
   @Test
   public void delete() {
-	        Student st2 = new Student();
-	        st2.setTipoIdentificacion("DNI");
-	        st2.setNumeroIdentificacion("73226957");
-	        st2.setNombre("prueba05");
-	        st2.setGenero("Masculino");
-	        st2.setBirthdate(new Date());
-	        st2.setNumeroPadres(3);
-	        when(imp.delete(st2)).thenReturn(Mono.empty());
+    Student st2 = new Student();
+    st2.setTipoIdentificacion("DNI");
+    st2.setNumeroIdentificacion("73226957");
+    st2.setNombre("prueba05");
+    st2.setGenero("Masculino");
+    st2.setBirthdate(new Date());
+    st2.setNumeroPadres(3);
+    when(imp.delete(st2)).thenReturn(Mono.empty());
   }
 }

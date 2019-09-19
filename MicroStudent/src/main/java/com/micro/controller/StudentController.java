@@ -61,7 +61,10 @@ public class StudentController {
       @DateTimeFormat(iso = ISO.DATE) Date birthdate1) {
     return serv.findByBirthdateBetween(birthdate, birthdate1);
   }
-  //Actualizar
+  
+  /**
+   *  modificar.
+   */
   
   @PutMapping("/st/{id}")
   public Mono<Student> edit(@Valid @RequestBody Student student,@PathVariable String id) {
@@ -75,7 +78,10 @@ public class StudentController {
       return serv.save(s);
     });
   }
-  //Eliminar 
+  
+  /**
+   * eliminar.
+   */
   
   @DeleteMapping("/st/{id}")
   public Mono<ResponseEntity<Void>> delete(@PathVariable(value = "id") String id) {

@@ -1,0 +1,392 @@
+src/main/java/com/micro/MicroStudentApplication.java:10:	CommentRequired: Header comments are required
+src/main/java/com/micro/MicroStudentApplication.java:10:	CommentRequired: Header comments are required
+src/main/java/com/micro/MicroStudentApplication.java:10:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/micro/MicroStudentApplication.java:10:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/micro/MicroStudentApplication.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/MicroStudentApplication.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/MicroStudentApplication.java:12:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/micro/MicroStudentApplication.java:12:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:25:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/micro/controller/StudentController.java:25:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/micro/controller/StudentController.java:25:	CommentRequired: Header comments are required
+src/main/java/com/micro/controller/StudentController.java:25:	CommentRequired: Header comments are required
+src/main/java/com/micro/controller/StudentController.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/micro/controller/StudentController.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/micro/controller/StudentController.java:27:	CommentRequired: Field comments are required
+src/main/java/com/micro/controller/StudentController.java:27:	CommentRequired: Field comments are required
+src/main/java/com/micro/controller/StudentController.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:30:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:35:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:35:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:35:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:35:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:41:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:41:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:41:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:41:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:41:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/controller/StudentController.java:41:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/controller/StudentController.java:47:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:47:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:47:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/controller/StudentController.java:47:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/controller/StudentController.java:47:	MethodArgumentCouldBeFinal: Parameter 'numeroIdentificacion' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:47:	MethodArgumentCouldBeFinal: Parameter 'numeroIdentificacion' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:53:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:53:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:53:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:53:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:59:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:59:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:59:	MethodArgumentCouldBeFinal: Parameter 'birthdate' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:59:	MethodArgumentCouldBeFinal: Parameter 'birthdate' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:60:	MethodArgumentCouldBeFinal: Parameter 'birthdate1' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:60:	MethodArgumentCouldBeFinal: Parameter 'birthdate1' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:67:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:67:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:67:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:67:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:67:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:67:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:67:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/controller/StudentController.java:67:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/controller/StudentController.java:68:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/micro/controller/StudentController.java:68:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/micro/controller/StudentController.java:81:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:81:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/controller/StudentController.java:81:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:81:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/controller/StudentController.java:81:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/controller/StudentController.java:81:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/controller/StudentController.java:81:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/micro/controller/StudentController.java:81:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/main/java/com/micro/model/Student.java:21:	CommentRequired: Header comments are required
+src/main/java/com/micro/model/Student.java:21:	CommentRequired: Header comments are required
+src/main/java/com/micro/model/Student.java:23:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:23:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:25:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:25:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:25:	LongVariable: Avoid excessively long variable names like tipoIdentificacion
+src/main/java/com/micro/model/Student.java:25:	LongVariable: Avoid excessively long variable names like tipoIdentificacion
+src/main/java/com/micro/model/Student.java:26:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:26:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:26:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/model/Student.java:26:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/model/Student.java:29:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:29:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:31:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:31:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:34:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:34:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:36:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:36:	CommentRequired: Field comments are required
+src/main/java/com/micro/model/Student.java:40:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/model/Student.java:40:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/model/Student.java:40:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/model/Student.java:40:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/model/Student.java:40:	LongVariable: Avoid excessively long variable names like tipoIdentificacion
+src/main/java/com/micro/model/Student.java:40:	LongVariable: Avoid excessively long variable names like tipoIdentificacion
+src/main/java/com/micro/model/Student.java:40:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:40:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:40:	MethodArgumentCouldBeFinal: Parameter 'numeroIdentificacion' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:40:	MethodArgumentCouldBeFinal: Parameter 'numeroIdentificacion' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:40:	MethodArgumentCouldBeFinal: Parameter 'tipoIdentificacion' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:40:	MethodArgumentCouldBeFinal: Parameter 'tipoIdentificacion' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:41:	MethodArgumentCouldBeFinal: Parameter 'birthdate' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:41:	MethodArgumentCouldBeFinal: Parameter 'birthdate' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:41:	MethodArgumentCouldBeFinal: Parameter 'genero' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:41:	MethodArgumentCouldBeFinal: Parameter 'genero' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:41:	MethodArgumentCouldBeFinal: Parameter 'numeroPadres' is not assigned and could be declared final
+src/main/java/com/micro/model/Student.java:41:	MethodArgumentCouldBeFinal: Parameter 'numeroPadres' is not assigned and could be declared final
+src/main/java/com/micro/repository/StudentRepository.java:9:	CommentRequired: Header comments are required
+src/main/java/com/micro/repository/StudentRepository.java:9:	CommentRequired: Header comments are required
+src/main/java/com/micro/repository/StudentRepository.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/repository/StudentRepository.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/repository/StudentRepository.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/repository/StudentRepository.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/repository/StudentRepository.java:12:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/repository/StudentRepository.java:12:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/repository/StudentRepository.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/repository/StudentRepository.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:8:	CommentRequired: Header comments are required
+src/main/java/com/micro/service/StudentService.java:8:	CommentRequired: Header comments are required
+src/main/java/com/micro/service/StudentService.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:10:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findAll': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:10:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findAll': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:12:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:12:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findByBirthdateBetween': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:12:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findByBirthdateBetween': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:14:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:14:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'save': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:14:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'save': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:16:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/service/StudentService.java:16:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/service/StudentService.java:16:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findById': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:16:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findById': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:18:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:18:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findBynombre': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:18:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findBynombre': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:20:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'delete': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:20:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'delete': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:22:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/micro/service/StudentService.java:22:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/service/StudentService.java:22:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/service/StudentService.java:22:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findBynumeroIdentificacion': the method is declared in an interface type
+src/main/java/com/micro/service/StudentService.java:22:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'findBynumeroIdentificacion': the method is declared in an interface type
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:13:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:13:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:13:	CommentRequired: Header comments are required
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:13:	CommentRequired: Header comments are required
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:15:	CommentRequired: Field comments are required
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:15:	CommentRequired: Field comments are required
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:23:	MethodArgumentCouldBeFinal: Parameter 'birthdate' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:23:	MethodArgumentCouldBeFinal: Parameter 'birthdate' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:23:	MethodArgumentCouldBeFinal: Parameter 'birthdate1' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:23:	MethodArgumentCouldBeFinal: Parameter 'birthdate1' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:28:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:28:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:33:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:33:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:33:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:33:	ShortVariable: Avoid variables with short names like id
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:38:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:38:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:43:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:43:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:48:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:48:	LongVariable: Avoid excessively long variable names like numeroIdentificacion
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:48:	MethodArgumentCouldBeFinal: Parameter 'numeroIdentificacion' is not assigned and could be declared final
+src/main/java/com/micro/service/impl/StudentServiceImpl.java:48:	MethodArgumentCouldBeFinal: Parameter 'numeroIdentificacion' is not assigned and could be declared final
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:5:	UnusedImports: Avoid unused imports such as 'org.hamcrest.CoreMatchers.nullValue'
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:5:	UnusedImports: Avoid unused imports such as 'org.hamcrest.CoreMatchers.nullValue'
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:23:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:23:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:23:	CommentRequired: Header comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:23:	CommentRequired: Header comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:25:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:25:	CommentRequired: Field comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:25:	CommentRequired: Field comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:27:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:27:	CommentRequired: Field comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:27:	CommentRequired: Field comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:29:	CommentRequired: Field comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:29:	CommentRequired: Field comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:29:	FieldNamingConventions: The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:29:	FieldNamingConventions: The constant name 'log' doesn't match '[A-Z][A-Z_0-9]*'
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:29:	VariableNamingConventions: Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:29:	VariableNamingConventions: Variables that are final and static should be all capitals, 'log' is not all capitals.
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'response' (lines '35'-'44').
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 'response' (lines '35'-'44').
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 's' (lines '35'-'46').
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	DataflowAnomalyAnalysis: Found 'UR'-anomaly for variable 's' (lines '35'-'46').
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:32:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:33:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:41:	LocalVariableCouldBeFinal: Local variable 'students' could be declared final
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:41:	LocalVariableCouldBeFinal: Local variable 'students' could be declared final
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:43:	SystemPrintln: System.out.println is used
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:43:	SystemPrintln: System.out.println is used
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:50:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:50:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:50:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:50:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:51:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:52:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:52:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:54:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:69:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:69:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:69:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:69:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:70:	LocalVariableCouldBeFinal: Local variable 'student' could be declared final
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:70:	LocalVariableCouldBeFinal: Local variable 'student' could be declared final
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:71:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:85:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:85:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:85:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:85:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:86:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:86:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:88:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'studentEditado' (lines '91'-'108').
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:88:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'studentEditado' (lines '91'-'108').
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:89:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:89:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:91:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:108:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:108:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:108:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:108:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:109:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:109:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:111:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:111:	ConfusingTernary: Avoid if (x != y) ..; else ..;
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/controller/test/MicroStudentControllerTests.java:112:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:25:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:25:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:25:	CommentRequired: Header comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:25:	CommentRequired: Header comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:27:	CommentRequired: Field comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:27:	CommentRequired: Field comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:27:	UnusedPrivateField: Avoid unused private fields such as 'resp'.
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:27:	UnusedPrivateField: Avoid unused private fields such as 'resp'.
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:29:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:29:	CommentRequired: Field comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:29:	CommentRequired: Field comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:32:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:32:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:33:	LocalVariableCouldBeFinal: Local variable 'student' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:33:	LocalVariableCouldBeFinal: Local variable 'student' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:35:	AvoidDuplicateLiterals: The String literal "73226957" appears 4 times in this file; the first occurrence is on line 35
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:35:	AvoidDuplicateLiterals: The String literal "73226957" appears 4 times in this file; the first occurrence is on line 35
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:40:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:40:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:41:	LocalVariableCouldBeFinal: Local variable 'actual' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:41:	LocalVariableCouldBeFinal: Local variable 'actual' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:45:	MethodArgumentCouldBeFinal: Parameter 'expectedProducts' is not assigned and could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:45:	MethodArgumentCouldBeFinal: Parameter 'expectedProducts' is not assigned and could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:45:	MethodArgumentCouldBeFinal: Parameter 'publisher' is not assigned and could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:45:	MethodArgumentCouldBeFinal: Parameter 'publisher' is not assigned and could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:46:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:53:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:53:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:54:	LocalVariableCouldBeFinal: Local variable 'st2' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:54:	LocalVariableCouldBeFinal: Local variable 'st2' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:61:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:61:	AvoidFinalLocalVariable: Avoid using final local variables, turn them into fields
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:62:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:62:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:63:	LocalVariableCouldBeFinal: Local variable 'actual' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:63:	LocalVariableCouldBeFinal: Local variable 'actual' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:68:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:68:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:68:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:68:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:69:	LocalVariableCouldBeFinal: Local variable 'st2' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:69:	LocalVariableCouldBeFinal: Local variable 'st2' could be declared final
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:76:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/test/java/com/micro/service/impl/test/MicroStudentServiceImplTest.java:76:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
