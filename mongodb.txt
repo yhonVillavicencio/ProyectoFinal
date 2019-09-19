@@ -3,39 +3,57 @@ use Proyecto 2
 
 db.student.insert(
 { 
- codigoStudent:"001",
- tipoIdentificacion: "dni",
- numeroIdentificacion: "73226940",
- nombre: "yhon",
- genero: "Masculino",
- fechaNacimiento: "30-03-1997",
- numeroPadres: 2
-},
-{ 
- codigoStudent:"002",
- tipoIdentificacion: "dni",
- numeroIdentificacion: "73226941",
- nombre: "manuel",
- genero: "Masculino",
- fechaNacimiento: "30-03-1997",
- numeroPadres: 2
-},
-{ 
- codigoStudent:"003",
- tipoIdentificacion: "dni",
- numeroIdentificacion: "73226942",
- nombre: "prueba",
- genero: "Masculino",
- fechaNacimiento: "30-03-1997",
- numeroPadres: 2
-},
-{ 
- codigoStudent:"004",
- tipoIdentificacion: "dni",
- numeroIdentificacion: "73226943",
- nombre: "dd",
- genero: "Masculino",
- fechaNacimiento: "30-03-1997",
- numeroPadres: 2
-}
+        "codigoStudent": "5d826cd4a2ea2f3dac7cf75e",
+        "tipoIdentificacion": "DNI",
+        "numeroIdentificacion": "87654321",
+        "nombre": "brigido",
+        "genero": "Masculino",
+        "birthdate": "2019-09-18",
+        "numeroPadres": 2
+    },
+    {
+        "codigoStudent": "5d8273bfa2ea2f3c1cf1639f",
+        "tipoIdentificacion": "DNI",
+        "numeroIdentificacion": "73226940",
+        "nombre": "gaa",
+        "genero": "Masculino",
+        "birthdate": "2019-09-18",
+        "numeroPadres": 2
+    },
+    {
+        "codigoStudent": "5d827537a2ea2f0fa8d41794",
+        "tipoIdentificacion": "DNI",
+        "numeroIdentificacion": "12345611",
+        "nombre": "aaaaff",
+        "genero": "Masculino",
+        "birthdate": "2019-09-18",
+        "numeroPadres": 2
+    },
+    {
+        "codigoStudent": "5d829e9ca2ea2f04d0867567",
+        "tipoIdentificacion": "DNI",
+        "numeroIdentificacion": "73226946",
+        "nombre": "prueba",
+        "genero": "Masculino",
+        "birthdate": "1997-03-30",
+        "numeroPadres": 2
+    },
+    {
+        "codigoStudent": "5d829eaaa2ea2f04d0867568",
+        "tipoIdentificacion": "DNI",
+        "numeroIdentificacion": "73226947",
+        "nombre": "1",
+        "genero": "Masculino",
+        "birthdate": "1997-03-30",
+        "numeroPadres": 2
+    },
+    {
+        "codigoStudent": "5d838effa2ea2f0d708300ad",
+        "tipoIdentificacion": "DNI",
+        "numeroIdentificacion": "73226957",
+        "nombre": "prueba05",
+        "genero": "Masculino",
+        "birthdate": "1997-03-30",
+        "numeroPadres": 3
+    }
 )
