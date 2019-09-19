@@ -38,7 +38,7 @@ public class StudentController {
 	}
 	  
 	  @PostMapping("/st")
-	  public Mono<Student> crear(@RequestBody Student student) {
+	  public Mono<Student> crear(@Valid @RequestBody Student student) {
 			 return serv.save(student);
 	  }
 

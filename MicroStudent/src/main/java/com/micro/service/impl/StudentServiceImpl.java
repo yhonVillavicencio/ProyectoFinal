@@ -13,7 +13,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Service
-public class StudentServiceImp implements StudentService{
+public class StudentServiceImpl implements StudentService{
 	
 	@Autowired
 	private StudentRepository resp;
