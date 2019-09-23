@@ -1,6 +1,6 @@
 # HTTP Server
 server:
-  port: 8080
+  port: 5050
 
 spring:
   # Spring Cloud Config Server Repository
