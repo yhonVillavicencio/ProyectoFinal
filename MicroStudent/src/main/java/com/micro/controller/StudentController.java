@@ -21,7 +21,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping("/api/v2")
+@RequestMapping("/api")
 public class StudentController {
   @Autowired
   private StudentService serv;
