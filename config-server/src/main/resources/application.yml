@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yhonVillavicencio/MicroservicioStudenV2
+          uri: https://github.com/yhonVillavicencio/MicroservicioStudenV2.git
 
   # Spring properties in case you use different profiles
   profiles:
