@@ -1,7 +1,7 @@
-spring:
+#spring:
 
-    data:
-        mongodb:
-            host: mongo
-            port: 27017
-            database: Proyecto2
+    #data:
+       # mongodb:
+         #   host: mongo
+           # port: 27017
+           # database: Proyecto2
