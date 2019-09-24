@@ -1,7 +1,6 @@
 package com.microservicio.controller;
 
 import com.microservicio.model.FamilyMembers;
-import com.microservicio.repository.FamilyMembersRepository;
 import com.microservicio.service.FamilyMembersService;
 
 import javax.validation.Valid;

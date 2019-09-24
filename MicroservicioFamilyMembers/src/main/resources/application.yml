@@ -1,0 +1,7 @@
+spring:
+
+    data:
+        mongodb:
+            host: mongo
+            port: 27017
+            database: Proyecto
