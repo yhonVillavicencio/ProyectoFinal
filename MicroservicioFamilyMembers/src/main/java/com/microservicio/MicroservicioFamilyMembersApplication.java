@@ -9,6 +9,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
 
 @EnableSwagger2WebFlux
 @SpringBootApplication
+@EnableDiscoveryClient
 @EnableEurekaClient
 public class MicroservicioFamilyMembersApplication {
 
