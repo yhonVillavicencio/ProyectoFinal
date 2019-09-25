@@ -28,7 +28,7 @@ public class StudentService {
 	  }
 	  
 	  @SuppressWarnings("unused")
-	  private String callCursoApplication_Fallback() {
+	  private String callStudentApplication_Fallback() {
 	    System.out.println("Student Application is down!  Fallback enabled!");
 	    return "CIRCUIT BREAKER ENABLED!!  No response from Student Application at this time";
 	  }
