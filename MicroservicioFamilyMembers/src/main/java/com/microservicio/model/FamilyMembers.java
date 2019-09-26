@@ -21,6 +21,7 @@ public class FamilyMembers {
   private String numeroIdentificacion;
   @NotEmpty(message = "Nombre No puede estar vacio")
   private String nombre;
+ 
   private String codigoStudent;
   @NotEmpty(message = "Genero No puede estar vacio")
   private String genero;

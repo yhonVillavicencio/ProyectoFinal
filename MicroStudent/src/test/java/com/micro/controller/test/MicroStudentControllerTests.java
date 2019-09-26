@@ -31,7 +31,7 @@ public class MicroStudentControllerTests {
   @Test
   public void listar() {
     client.get()
-         .uri("/api/v2/st")
+         .uri("/api/st")
          .accept(MediaType.APPLICATION_JSON_UTF8)
          .exchange()
          .expectStatus().isOk()
@@ -53,7 +53,7 @@ public class MicroStudentControllerTests {
     if (student != null) {
     
       client.get()
-      .uri("/api/v2/st/{id}", Collections.singletonMap("id",student.getCodigoStudent()))
+      .uri("/api/st/{id}", Collections.singletonMap("id",student.getCodigoStudent()))
       .accept(MediaType.APPLICATION_JSON_UTF8)
       .exchange()
       .expectStatus().isOk()
@@ -70,7 +70,7 @@ public class MicroStudentControllerTests {
   public void newS() {
     Student student = new Student("DNI","12345611","aaaaff","Masculino",new Date(),2);
     client.post()
-      .uri("/api/v2/st")
+      .uri("/api/st")
       .contentType(MediaType.APPLICATION_JSON_UTF8)
       .accept(MediaType.APPLICATION_JSON_UTF8)
       .body(Mono.just(student), Student.class)
@@ -90,7 +90,7 @@ public class MicroStudentControllerTests {
     
     if (student != null) {
       client.put()
-      .uri("/api/v2/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
+      .uri("/api/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
       .contentType(MediaType.APPLICATION_JSON_UTF8)
       .accept(MediaType.APPLICATION_JSON_UTF8)
       .body(Mono.just(studentEditado), Student.class)
@@ -110,7 +110,7 @@ public class MicroStudentControllerTests {
     final Student student = servi.findBynumeroIdentificacion("12345678").block();
     if (student != null) {
       client.delete()
-      .uri("/api/v2/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
+      .uri("/api/st/{id}", Collections.singletonMap("id", student.getCodigoStudent()))
       .exchange()
       .expectStatus().isOk()
       .expectBody()

@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 import java.util.Date;
 
+import javax.jws.Oneway;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -34,7 +35,7 @@ public class Student {
   private Date birthdate;
   @Max(2)
   private int numeroPadres;
- 
+  
   /**
    *  constructor.
    */
