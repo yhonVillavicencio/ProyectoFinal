@@ -13,8 +13,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
 @EnableEurekaClient
 public class MicroservicioFamilyMembersApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MicroservicioFamilyMembersApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(MicroservicioFamilyMembersApplication.class, args);
+  }
 
 }

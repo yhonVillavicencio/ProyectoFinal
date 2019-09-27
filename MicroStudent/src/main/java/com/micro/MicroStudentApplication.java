@@ -13,8 +13,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
 @EnableDiscoveryClient
 public class MicroStudentApplication {
 
+
   public static void main(String[] args) {
     SpringApplication.run(MicroStudentApplication.class, args);
   }
-
+  
 }
+ 

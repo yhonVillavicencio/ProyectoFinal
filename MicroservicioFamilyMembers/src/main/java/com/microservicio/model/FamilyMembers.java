@@ -1,10 +1,9 @@
 package com.microservicio.model;
 
+import javax.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import javax.validation.constraints.NotEmpty;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -28,17 +27,19 @@ public class FamilyMembers {
   @NotEmpty(message = "Tipo del Familiar No puede estar vacio")
   private String tipoFamiliar;
   
-  //Constructor
+  /**
+   *  constructor.
+   */
   public FamilyMembers(String tipoIdentificacion,
-		String numeroIdentificacion, String nombre,
-		String codigoStudent, String genero,
-		String tipoFamiliar) {
-	this.tipoIdentificacion = tipoIdentificacion;
-	this.numeroIdentificacion = numeroIdentificacion;
-	this.nombre = nombre;
-	this.codigoStudent = codigoStudent;
-	this.genero = genero;
-	this.tipoFamiliar = tipoFamiliar;
+      String numeroIdentificacion, String nombre,
+      String codigoStudent, String genero,
+      String tipoFamiliar) {
+    this.tipoIdentificacion = tipoIdentificacion;
+    this.numeroIdentificacion = numeroIdentificacion;
+    this.nombre = nombre;
+    this.codigoStudent = codigoStudent;
+    this.genero = genero;
+    this.tipoFamiliar = tipoFamiliar;
   }
   
 }

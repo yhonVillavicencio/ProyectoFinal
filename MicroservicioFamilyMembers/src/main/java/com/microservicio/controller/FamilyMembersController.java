@@ -44,7 +44,7 @@ public class FamilyMembersController {
   // Busca Por Numero de Identificacion
   
   @GetMapping("/fm/numberId/{numeroIdentificacion}")
-  public Mono<FamilyMembers> dni(@PathVariable("numeroIdentificacion") String numeroIdentificacion) {
+  public Mono<FamilyMembers> dni(@PathVariable("numeroIdentificacion")String numeroIdentificacion) {
     return servicio.findBynumeroIdentificacion(numeroIdentificacion);
   }
   // Busca por nombres
@@ -53,11 +53,13 @@ public class FamilyMembersController {
   public Flux<FamilyMembers> findBynombre(@PathVariable("nombre") String nombre) {
     return servicio.findBynombre(nombre);
   }
-  	
-  //Busca por id y acctualiza
+  /**
+   *  modificar.
+  */
   
   @PutMapping("/fm/{id}")
-  public Mono<FamilyMembers> edi(@Valid @RequestBody FamilyMembers familyMembers,@PathVariable String id) {
+  public Mono<FamilyMembers> edi(@Valid @RequestBody FamilyMembers familyMembers,
+      @PathVariable String id) {
     return servicio.findById(id).flatMap(s -> {
       s.setTipoIdentificacion(familyMembers.getTipoIdentificacion());
       s.setNumeroIdentificacion(familyMembers.getNumeroIdentificacion());
@@ -68,7 +70,9 @@ public class FamilyMembersController {
       return servicio.save(s);
     });
   }
-  // Elimina por id
+  /**
+   * eliminar.
+   */
   
   @DeleteMapping("/fm/{id}")
   public Mono<Void> eliminar(@PathVariable String id) {
