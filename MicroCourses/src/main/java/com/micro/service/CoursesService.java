@@ -6,7 +6,11 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface CoursesService {
-	
-	public Mono<Courses> obtenerPorCodigoDeCursos(String codigoCurso);
-	 public Flux<Courses> findAll();
+  public Flux<Courses> findAll();
+  
+  public Mono<Courses> save(Courses courses);
+  
+  public Mono<Void> delete(Courses courses);
+  
+  public Mono<Courses> findById(String id);
 }

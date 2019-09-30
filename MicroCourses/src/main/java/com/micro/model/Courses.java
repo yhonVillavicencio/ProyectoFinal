@@ -15,7 +15,6 @@ public class Courses {
 	
 	@Id
 	private String id;
-	
 	private String codigoCurso;
 	private String nombreCurso;	
 	private String numeroIdentificacionStudent;
