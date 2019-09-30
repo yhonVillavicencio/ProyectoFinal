@@ -16,15 +16,13 @@ public class Courses {
 	@Id
 	private String id;
 	
-	private String nombreCurso;
-	
+	private String codigoCurso;
+	private String nombreCurso;	
 	private String numeroIdentificacionStudent;
-	
 	private String numeroIdentificacionTeacher;
-	
 	private String estadoCurso;
-	
-	private int numeroStudent;
+	private int cantidadEstudiante;
+	private Evaluaciones evaluaciones;
 	
 	
 	
